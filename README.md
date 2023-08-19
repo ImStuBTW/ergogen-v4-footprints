@@ -8,9 +8,9 @@ Tailormade in the fashion of today.
 
 ## Accessories
 
-* [buttonrightangle.js](./buttonrightangle.js) - A [MJTP1117](https://www.mouser.com/ProductDetail/642-MJTP1117) right angle pushbutton.
+* [buttonrightangle.js](./buttonrightangle.js) - An [MJTP1117](https://www.mouser.com/ProductDetail/642-MJTP1117) right angle pushbutton.
 * [gbareversible.js](./gbareversible.js) - A reversible Game Boy cartridge slot footprint for all you TypePak fans out there. Based on [Martin Refseth](https://github.com/HDR)'s [Game Boy KiCad Library](https://github.com/HDR/Game-Boy-KiCad-Library).
-* [spdtrightangle.js](./spdtrightangle.js) - A [EG1213](https://www.mouser.com/ProductDetail/612-EG1213) right angle power switch.
+* [spdtrightangle.js](./spdtrightangle.js) - An [EG1213](https://www.mouser.com/ProductDetail/612-EG1213) right angle power switch.
 
 ## Encoders & Friends
 
