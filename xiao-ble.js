@@ -56,13 +56,36 @@ module.exports = {
       (fp_rect (start -5.285811 -6.785813) (end -3.507811 -4.118813) (layer Dwgs.User) (width 0.12) (fill none))
       (fp_rect (start 3.350197 -10.849813) (end 5.128197 -8.182813) (layer Dwgs.User) (width 0.12) (fill none))
 
-      ${'' /* interior cutouts */}
-      (fp_rect (start -1.52 -8.822) (end 1.52 -5.782) (layer Edge.Cuts) (width 0.12) (fill none))
+      ${'' /* top interior cutout */}
+      (fp_line (start -0.8382 -8.826) (end 0.8382 -8.826) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start 1.2762 -8.5782) (end 1.524 -8.1402) (angle 148.9828048) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start 1.524 -8.1402) (end 1.524 -6.4638) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start 1.2762 -6.0257) (end 0.8382 -5.778) (angle 148.9828048) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start -0.8382 -5.778) (end 0.8382 -5.778) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start -1.2762 -6.0258) (end -1.524 -6.4638) (angle 148.9828349) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start -1.524 -8.1402) (end -1.524 -6.4638) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start -1.2762 -8.5782) (end -0.8382 -8.826) (angle 148.9829267) (layer Edge.Cuts) (width 0.12))
 
-      (fp_rect (start -4.695 -2.472) (end -2.032 -0.067) (layer Edge.Cuts) (width 0.12) (fill none))
+      ${'' /* middle interior cutout */}
+      (fp_line (start -4.0132 -2.476) (end -2.413 -2.476) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start -2.4130 -2.0950) (end -2.413 -2.476) (angle 90.00030077) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start -2.032 -2.095) (end -2.032 -0.444) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start -2.4130 -0.4440) (end -2.032 -0.444) (angle 90.00030077) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start -4.0132 -0.063) (end -2.413 -0.063) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start -4.4512 -0.3108) (end -4.699 -0.7488) (angle 148.9837357) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start -4.699 -1.7902) (end -4.699 -0.7488) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start -4.4512 -2.2282) (end -4.0132 -2.476) (angle 148.9837357) (layer Edge.Cuts) (width 0.12))
 
-      (fp_rect (start 3.602408 6.388408) (end 5.907408 9.01408) (layer Edge.Cuts) (width 0.12) (fill none))
-
+      ${'' /* bottom interior cutout */}
+      (fp_line (start 3.929408 6.388408) (end 5.580408 6.388408) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start 5.5804 6.7694) (end 5.580408 6.388408) (angle 89.99999995) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start 5.961408 6.769408) (end 5.961408 8.369608) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start 5.7137 8.8077) (end 5.275608 9.055408) (angle 148.9852872) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start 4.234208 9.055408) (end 5.275608 9.055408) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start 3.7962 8.8077) (end 3.548408 8.369608) (angle 148.9843563) (layer Edge.Cuts) (width 0.12))
+      (fp_line (start 3.548408 6.769408) (end 3.548408 8.369608) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start 3.9294 6.7694) (end 3.548408 6.769392) (angle 90) (layer Edge.Cuts) (width 0.12))
+      
       ${''/* pin definitions */}
       (pad "1" thru_hole oval (at -7.62 -7.62 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P0.str})
       (pad "2" thru_hole oval (at -7.62 -5.08 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P1.str})
