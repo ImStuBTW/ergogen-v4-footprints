@@ -84,7 +84,7 @@ module.exports = {
       (fp_line (start 4.234208 9.055408) (end 5.275608 9.055408) (layer Edge.Cuts) (width 0.12))
       (fp_arc (start 3.7962 8.8077) (end 3.548408 8.369608) (angle 148.9843563) (layer Edge.Cuts) (width 0.12))
       (fp_line (start 3.548408 6.769408) (end 3.548408 8.369608) (layer Edge.Cuts) (width 0.12))
-      (fp_arc (start 3.9294 6.7694) (end 3.548408 6.769392) (angle 90) (layer Edge.Cuts) (width 0.12))
+      (fp_arc (start 3.9294 6.7694) (end 3.548408 6.769392) (angle 90.00240617) (layer Edge.Cuts) (width 0.12))
       
       ${''/* pin definitions */}
       (pad "1" thru_hole oval (at -7.62 -7.62 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P0.str})
