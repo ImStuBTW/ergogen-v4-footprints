@@ -4,7 +4,8 @@ Tailormade in the fashion of today.
 
 ## Microcontrollers
 
-* [xiao-ble.js](./xiao-ble.js) - A footprint for the [Seeedstudio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html). Uses smd pads for the standard GPIO pads. For the interior SW pins, Reset pin, Battery pins, and NFC pins, the footprint features through-hole pins. The pins intersect with small edge cut windows so that you can solder them from the underside of a PCB.
+* [xiao-ble.js](./xiao-ble.js) - A footprint for the [Seeedstudio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html). Uses smd pads for the standard GPIO pads. For the interior SW pins, Reset pin, Battery pins, and NFC pins, the footprint features through-hole pins. The pins intersect with small edge cut windows so that you can solder them from the underside of a PCB. (Update, Feb. 2026: Now using the KiCAD 8 footprint syntax. Should coexist with Ceoloide's footprint library.)
+* [xiao-ble-kicad5.js](./xiao-ble.js) - A footprint for the [Seeedstudio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html). Same as above, but using the older KiCAD 5 footprint format in case you're working with an older build that's not leveraging `template: kicad8`.
 
 ## Accessories
 
